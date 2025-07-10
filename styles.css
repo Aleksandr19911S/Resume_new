@@ -177,12 +177,14 @@ li {
     padding: 10px 0;
   }
   .container-flex {
-    flex-direction: column !important;
-    align-items: stretch !important;
-    gap: 12px !important;
+    display: block !important;
+    padding-left: 0 !important;
   }
   .container-flex li {
-    margin-bottom: 10px !important;
+    margin-bottom: 16px !important;
+    display: block;
+    width: 100%;
+    word-break: break-word;
   }
   iframe {
     width: 100% !important;
